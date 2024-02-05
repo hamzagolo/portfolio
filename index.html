@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hamza Portfolio</title>
+  <script src="https://kit.fontawesome.com/df36ba4d98.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./styles.css">
+ 
+</head>
+<body>
+  <div id="header">
+<div class="container">
+  <nav>
+    <img src="./images/logo.jpg" alt="hamza photo" class="logo">
+    <ul id="sidemenu">
+      <li><a href="#header">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+       
+      <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+      </ul>
+    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+  </nav>
+  <div class="header-text">
+
+<p>Website Developer/Designer</p>
+<h1>
+  Hi, I am  <span class="Golo"> <br> Hamza Golo</span>
+
+</h1>
+</div>
+</div>
+ </div>
+
+ <div>
+  <div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="./images/hamzagolo.jpg" alt="">
+      </div>     
+       <div class="about-col-2">
+        <h1 class="about-me">About Me</h1>
+        <p class="paragraph1">
+          Highly motivated Junior Web Developer with experience in building and maintaining web applications. Proficient in HTML, CSS, JavaScript, Seeking to join a dynamic team where I can utilize my skills to help drive the success of the organization.
+        </p>
+
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+          <p class="tab-links"onclick="opentab('Experience')">Experience</p>
+          <p class="tab-links"onclick="opentab('Education')">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+         <ul>
+          <li>Web Development</li>
+          <li>Web Designing</li>
+         </ul>
+        </div>
+
+         <div class="tab-contents" id="Experience">
+          <ul>
+           <li>Build organic chicken web</li>
+           <li> Build Golo Transportation web</li>
+           <li>Working on another webs</li>
+           <li>we are just getting started</li>
+          </ul>
+         </div> 
+         <div class="tab-contents" id="Education">
+          <ul>
+           <li> 2024/2/25 Udemy Graduate</li>
+           <li> 2023/10/12 UCI College</li>
+          </ul>
+         </div>  
+      </div>
+      </div>
+  </div>
+ </div>
+<!-----------------------------services--------------------------------->
+ <div id="services">
+  <div class="container">
+    <h1 class="sub-title">My services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-laptop-code"></i>
+        <h2>Web Developer</h2>
+        <p>I have experience in developing websites and I am good at using any design software. I think I would be a good fit for for joining any company because I have the necessary skills and experience.
+        </p>
+        <a href="#">Learn More</a>
+      </div>
+
+      <div>
+        <i class="fa-solid fa-paint-roller"></i>
+        <h2>Web Design</h2>
+        <p>I have experience in Designing websites and I am good at using design software. I think I would be a good fit for for joining any company because I have the necessary skills and experience.
+        </p>
+        <a href="#">Learn More</a>
+      </div>
+
+
+    </div>
+  </div>
+ </div>
+
+
+
+
+
+ <div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="./images/hamzawork2.jpg" alt="work picture">
+        <div class="layer">
+          <h2>Website Developer</h2>
+          <p>
+           I create functional, user-friendly websites and web applications. Using HTML,CSS and JavaScript.
+          </p>
+          <a href="#"><i class="fa-solid fa-link"></i></a>
+         </div>
+      </div>
+
+      <div class="work">
+        <img src="./images/hamzawork.jpg" alt="work picture">
+        <div class="layer">
+          <h2>Website Designer</h2>
+           <p>
+            I create the design and layout of a website with their technical expertise and knowledge while keeping in mind the client's requirements.
+          </p>
+          <a href="#"><i class="fa-solid fa-paint-roller"></i></a>
+
+      </div>
+    </div>
+    </div>
+
+  </div>
+  <a href="#" class="btn">See More</a>
+ </div>
+
+<!----------------contact------------->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="Sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i> Golohamza17@gmail.com</p>
+        <p><i class="fa-solid fa-phone-volume"></i>+16047548345</p>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/hamzadeprince.rashid?mibextid=LQQJ4d"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.instagram.com/invites/contact/?i=igo5jhntl5tj&utm_content=1ttsx42"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://x.com/creeper_19/"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+        <a href="./images/Hamza cover latter.docx" download class="btn btn2">Download Resume</a>
+      </div>
+      <div class="contact-right">
+  
+  <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2 submit">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+  <div class="copyrigt">
+    <p>Copyright @Hamza 2024</p>
+  </div>
+</div>
+
+
+
+
+
+<script>
+
+var tablinks = document.getElementsByClassName("tab-links")
+var tabcontents = document.getElementsByClassName("tab-contents")
+function opentab(tabname){
+  for(tablink of tablinks){
+    tablink.classList.remove("active-link");
+  }
+  for(tabcontent of tabcontents){
+    tabcontent.classList.remove("active-tab");
+  }
+  event.currentTarget.classList.add("active-link");
+  document.getElementById(tabname).classList.add("active-tab");
+}
+
+</script>
+<script>
+var sidemenu = document.getElementById("sidemenu");
+function openmenu(){
+  sidemenu.style.right = "0";
+}
+function closemenu(){
+  sidemenu.style.right = "-200px";
+}
+
+
+
+</script>
+
+
+
+
+
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxVXyyYhoEHFeiK0DuAz4da5FSBzScNwN9JuQsiNlYA0SnAKpE7w-gbj1CXOURpAGi4/exec'
+  const form = document.forms['submit-to-google-sheet']
+  constmsg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response =>{
+         msg.innerHTML = "Message sent succesefully"
+         setTimeout(function(){
+          msg.innerHTML = ""
+         },5000)
+         form.reset()
+
+      })
+
+  
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+
+
+</body>
+</html>
