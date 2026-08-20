@@ -21,7 +21,16 @@ app.use(express.urlencoded({ extended: true }));
 /* 
    SERVE PORTFOLIO*/
 
+// app.use(express.static(path.join(__dirname)));
+/* =========================
+   SERVE PORTFOLIO
+========================= */
+
 app.use(express.static(path.join(__dirname)));
+
+app.get("/", (req, res) => {
+  res.sendFile(path.join(__dirname, "index.html"));
+});
 
 /* 
    POSTGRESQL CONNECTION
