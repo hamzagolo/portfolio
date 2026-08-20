@@ -1,0 +1,660 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Hamza | Full-Stack Developer</title>
+
+    <meta
+      name="description"
+      content="Hamza - Full-Stack Web Developer Portfolio"
+    />
+
+  */google Fonts*/
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+  */Font Awesome*/
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+   */Devicon for tech icons*/
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+
+   */Custom CSS*/
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+   */Background Glow Elements*/
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+
+*/Navigation Bar*/
+
+    <header class="navbar">
+      <a href="#home" class="logo"> H<span>G</span> </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a href="./images/Hamza's Resume.docx" class="resume-btn">
+        Download Resume
+        <i class="fa-solid fa-download"></i>
+      </a>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </header>
+
+    <main>
+ */Hero Section*/
+
+      <section class="hero" id="home">
+        <div class="hero-content">
+          <div class="intro-badge">
+            <span>👋</span>
+            Hi, I'm Hamza
+          </div>
+
+          <h1>
+            I build modern
+            <span id="typingText">web experiences.</span>
+          </h1>
+
+          <p>
+            I'm a full-stack developer who loves turning ideas into clean,
+            functional and user-friendly web applications.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="primary-btn">
+              View My Work
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+            <a href="#contact" class="secondary-btn"> Contact Me </a>
+          </div>
+
+          <div class="social-links">
+            <a
+              href="https://github.com/hamzagolo"
+              target="_blank"
+              aria-label="GitHub"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a
+              href="https://linkedin.com/"
+              target="_blank"
+              aria-label="LinkedIn"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+
+            <a href="mailto:golohamza17@gmail.com" aria-label="Email">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+
+            <a
+              href="https://www.instagram.com/hamzaah_g?igsi=MWcxdWs2dnZ2aDR1Ng%3D%3D&utm_source=qr"
+              target="_blank"
+              aria-label="Instagram"
+            >
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+
+        /*PROFILE VISUAL*/
+
+        <div class="hero-visual">
+          <!-- Glowing circle behind profile -->
+          <div class="profile-glow"></div>
+
+          <!-- Profile picture -->
+          <img
+            src="./images/Hamza-work.jpg"
+            alt="Hamza - Full-Stack Developer"
+            class="profile-image"
+          />
+
+    */prfile code card*/
+
+          <div class="code-card">
+            <div class="code-header">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+
+            <pre><code><span class="purple">const</span> developer = {
+    name: <span class="green">'Hamza'</span>,
+    role: <span class="green">'Full Stack Developer'</span>,
+    passion: <span class="green">'Building solutions'</span>,
+    tech: [
+        <span class="green">'JavaScript'</span>,
+        <span class="green">'React'</span>,
+        <span class="green">'Python'</span>,
+        <span class="green">'PostgreSQL'</span>
+    ]
+};</code></pre>
+          </div>
+        </div>
+      </section>
+
+      /*ABOUT Section*/
+
+      <section class="section about" id="about">
+        <div class="section-heading">
+          <span>ABOUT ME</span>
+
+          <h2>
+            Building things that
+            <span>matter.</span>
+          </h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I'm a passionate web developer focused on creating modern digital
+              experiences. I enjoy taking an idea from concept to a working
+              application.
+            </p>
+
+            <p>
+              My approach combines clean code, thoughtful design, and practical
+              problem solving. I'm always learning new technologies and looking
+              for better ways to build.
+            </p>
+
+            <a href="#contact" class="text-link">
+              Let's work together
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <div class="about-stats">
+            <div class="stat-card">
+              <h3>10+</h3>
+              <p>Projects Built</p>
+            </div>
+
+            <div class="stat-card">
+              <h3>3+</h3>
+              <p>Years Learning</p>
+            </div>
+
+            <div class="stat-card">
+              <h3>10+</h3>
+              <p>Technologies</p>
+            </div>
+
+            <div class="stat-card">
+              <h3>100%</h3>
+              <p>Curious</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+     */skills Section*/
+
+      <section class="section skills" id="skills">
+        <div class="section-heading centered">
+          <span>MY STACK</span>
+
+          <h2>
+            Technologies I
+            <span>Work With</span>
+          </h2>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <i class="devicon-html5-plain"></i>
+            <h3>HTML5</h3>
+            <p>Semantic web structure</p>
+          </div>
+
+          <div class="skill-card">
+            <i class="devicon-css3-plain"></i>
+            <h3>CSS3</h3>
+            <p>Modern responsive design</p>
+          </div>
+
+          <div class="skill-card">
+            <i class="devicon-javascript-plain"></i>
+            <h3>JavaScript</h3>
+            <p>Interactive applications</p>
+          </div>
+
+          <div class="skill-card">
+            <i class="devicon-react-original"></i>
+            <h3>React</h3>
+            <p>Component-based interfaces</p>
+          </div>
+
+          <div class="skill-card">
+            <i class="devicon-nodejs-plain"></i>
+            <h3>Node.js</h3>
+            <p>Backend development</p>
+          </div>
+
+          <div class="skill-card">
+            <i class="devicon-python-plain"></i>
+            <h3>Python</h3>
+            <p>Programming & automation</p>
+          </div>
+
+          <div class="skill-card">
+            <i class="devicon-java-plain"></i>
+            <h3>Java</h3>
+            <p>Object-oriented programming</p>
+          </div>
+
+          <div class="skill-card">
+            <i class="devicon-postgresql-plain"></i>
+            <h3>PostgreSQL</h3>
+            <p>Relational databases</p>
+          </div>
+
+          <div class="skill-card">
+            <i class="devicon-git-plain"></i>
+            <h3>Git</h3>
+            <p>Version control</p>
+          </div>
+
+          <div class="skill-card">
+            <i class="devicon-github-original"></i>
+            <h3>GitHub</h3>
+            <p>Code collaboration</p>
+          </div>
+
+          <div class="skill-card">
+            <i class="devicon-vscode-plain"></i>
+            <h3>VS Code</h3>
+            <p>Development environment</p>
+          </div>
+        </div>
+      </section>
+
+    */projects Section*/
+
+      <section class="section projects" id="projects">
+        <div class="section-heading">
+          <span>FEATURED PROJECTS</span>
+
+          <div class="heading-row">
+            <h2>
+              Some Things I've
+              <span>Built</span>
+            </h2>
+
+            <a href="https://github.com/hamzagolo" class="view-all">
+              View All Projects
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="projects-grid">
+          */ CUSTOMER TRACKER */
+
+          <article class="project-card">
+            <div class="project-image customer-tracker">
+              <div class="customer-preview">
+                <div class="customer-top">
+                  <i class="fa-solid fa-users"></i>
+                  <span>Customer Information</span>
+                </div>
+
+                <div class="customer-stats">
+                  <div class="customer-stat">
+                    <strong>248</strong>
+                    <small>Customers</small>
+                  </div>
+
+                  <div class="customer-stat">
+                    <strong>32</strong>
+                    <small>New</small>
+                  </div>
+
+                  <div class="customer-stat">
+                    <strong>96%</strong>
+                    <small>Complete</small>
+                  </div>
+                </div>
+
+                <div class="customer-table">
+                  <div>
+                    <span></span>
+                    <span></span>
+                  </div>
+
+                  <div>
+                    <span></span>
+                    <span></span>
+                  </div>
+
+                  <div>
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <span class="project-number">01</span>
+
+              <h3>Customer Info Tracker</h3>
+
+              <p>
+                A customer information management system designed to organize,
+                track, and manage customer records efficiently.
+              </p>
+
+              <div class="tech-tags">
+                <span>Javascript</span>
+                <span>PostgreSQL</span>
+                <span>HTML</span>
+                <span>CSS</span>
+              </div>
+
+              <div class="project-links">
+                <a
+                  href="https://github.com/hamzagolo/customer-info-tracker.git"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-github"></i>
+                  Code
+                </a>
+
+                <a
+                  href="https://github.com/hamzagolo/customer-info-tracker.git"
+                  target="_blank"
+                >
+                  Live Demo
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          */ CHICKEN WEBSITE */
+
+          <article class="project-card">
+            <div class="project-image chicken">
+              <div class="chicken-preview">
+                <div class="chicken-icon">
+                  <i class="fa-solid fa-drumstick-bite"></i>
+                </div>
+
+                <div class="chicken-title">
+                  Fresh Organic
+                  <br />
+                  Chicken
+                </div>
+
+                <div class="organic-badge">100% ORGANIC</div>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <span class="project-number">02</span>
+
+              <h3>Organic Chicken</h3>
+
+              <p>
+                A modern organic chicken website designed to showcase fresh
+                products, quality ingredients, and convenient ordering.
+              </p>
+
+              <div class="tech-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Responsive Design</span>
+              </div>
+
+              <div class="project-links">
+                <a
+                  href="https://github.com/hamzagolo/Organic-Chicken.git"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-github"></i>
+                  Code
+                </a>
+
+                <a href="#" target="_blank">
+                  Live Demo
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PORTFOLIO -->
+
+          <article class="project-card">
+            <div class="project-image portfolio-preview">
+              <div class="portfolio-text">
+                <small>Hello, I'm</small>
+
+                <strong>Full-Stack Developer</strong>
+
+                <span> Creating digital experiences. </span>
+              </div>
+
+              <div class="portfolio-glow"></div>
+            </div>
+
+            <div class="project-content">
+              <span class="project-number">03</span>
+
+              <h3>Developer Portfolio</h3>
+
+              <p>
+                A modern responsive portfolio website designed to showcase
+                development skills, experience, and professional information.
+              </p>
+
+              <div class="tech-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+
+              <div class="project-links">
+                <a href="https://github.com/hamzagolo">
+                  <i class="fa-brands fa-github"></i>
+                  Code
+                </a>
+
+                <a href="#">
+                  Live Demo
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      */Experience Section*/
+
+      <section class="section experience" id="experience">
+        <div class="section-heading centered">
+          <span>MY JOURNEY</span>
+
+          <h2>
+            Experience &
+            <span>Education</span>
+          </h2>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-content">
+              <span class="timeline-date"> 2025 — Present </span>
+
+              <h3>Software Developer</h3>
+
+              <h4>Student at British Columbia Institute of Technology</h4>
+
+              <p>
+                Building responsive web applications and developing skills
+                across frontend, backend, databases and modern development
+                tools.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-content">
+              <span class="timeline-date"> 2024 — 2025 </span>
+
+              <h3>Full Stack Software Development Student</h3>
+
+              <h4>Programming & Technology</h4>
+
+              <p>
+                Studied programming fundamentals, Java, Python, databases,
+                testing and software development practices at BCIT.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-content">
+              <span class="timeline-date"> 2023 — 2024 </span>
+
+              <h3>Web Development</h3>
+
+              <h4>Independent Learning</h4>
+
+              <p>
+                Developed foundational skills in HTML, CSS, JavaScript and
+                modern web development.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+/*Contact Section*/
+
+      <section class="section contact" id="contact">
+        <div class="contact-card">
+          <div class="section-heading centered">
+            <span>GET IN TOUCH</span>
+
+            <h2>
+              Let's build something
+              <span>great.</span>
+            </h2>
+
+            <p>
+              Have a project in mind or want to work together? Send me a
+              message.
+            </p>
+          </div>
+
+          <form id="contactForm">
+            <div class="form-row">
+              <div class="input-group">
+                <label for="name"> Name </label>
+
+                <input type="text" id="name" placeholder="Your name" required />
+              </div>
+
+              <div class="input-group">
+                <label for="email"> Email </label>
+
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="your@email.com"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="input-group">
+              <label for="message"> Message </label>
+
+              <textarea
+                id="message"
+                rows="6"
+                placeholder="Tell me about your project..."
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="primary-btn submit-btn">
+              Send Message
+              <i class="fa-solid fa-paper-plane"></i>
+            </button>
+
+            <p id="formMessage"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+      <div class="footer-logo">H<span>G</span></div>
+
+      <p>Designed & built by Hamza.</p>
+      <p>📍Vancouver,BC 🇨🇦</p>
+
+      <div class="footer-socials">
+        <a href="https://github.com/hamzagolo" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+
+        <a href="#">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+
+        <a href="mailto:golohamza17@gmail.com">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+      </div>
+
+      <p class="copyright">© 2026 Hamza. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
